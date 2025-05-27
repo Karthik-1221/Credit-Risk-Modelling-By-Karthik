@@ -3,7 +3,7 @@
 Welcome to **Lauki Finance: Credit Risk Modelling**, a Streamlit-based web app designed to predict credit risk levels using machine learning. The application leverages Optuna for hyperparameter tuning, providing optimized results for creditworthiness predictions.
 
 ## 🔗 Live Demo
-👉 [Launch the App]  ([https://your-streamlit-app-link-here](https://credit-risk-modelling-by-karthik.streamlit.app/))
+👉 [Launch the App]  ([[https://your-streamlit-app-link-here](https://credit-risk-modelling-by-karthik.streamlit.app/)](https://credit-risk-modelling-by-karthik.streamlit.app/))
 
 ## 💡 Features
 - Clean and intuitive Streamlit interface
