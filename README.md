@@ -16,7 +16,8 @@ Welcome to **Lauki Finance: Credit Risk Modelling**, a Streamlit-based web app d
 
 ### Home Interface
 ![App Interface]
-![Uploading Prediction input.png…]()
+![![Uploading Prediction input.png…]()
+]()
 
 ### Prediction Output
 ![Prediction Result](https://your-uploaded-image-url-2)
