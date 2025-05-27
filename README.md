@@ -2,7 +2,7 @@
 
 This project is a Streamlit web application that simulates credit risk assessment for loan applicants. By inputting a variety of financial and demographic parameters, users can assess the likelihood of default using a machine learning classification model.
 
-🔗 Live App: credit-risk-modelling-by-karthik.streamlit.app
+🔗 Live App:      credit-risk-modelling-by-karthik.streamlit.app
 
 🔍 Overview
 
