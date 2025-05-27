@@ -1,79 +1,29 @@
-💳 Lauki Finance: Credit Risk Modelling
+# 🏦 Credit Risk Modeling with Streamlit & Optuna
 
-This project is a Streamlit web application that simulates credit risk assessment for loan applicants. By inputting a variety of financial and demographic parameters, users can assess the likelihood of default using a machine learning classification model.
+Welcome to **Lauki Finance: Credit Risk Modelling**, a Streamlit-based web app designed to predict credit risk levels using machine learning. The application leverages Optuna for hyperparameter tuning, providing optimized results for creditworthiness predictions.
 
-🔗 Live App:      credit-risk-modelling-by-karthik.streamlit.app
+## 🔗 Live Demo
+👉 [Launch the App]([https://your-streamlit-app-link-here](https://credit-risk-modelling-by-karthik.streamlit.app/))
 
-🔍 Overview
+## 💡 Features
+- Clean and intuitive Streamlit interface
+- Input fields for Age, Income, Loan Amount, Tenure, Credit Utilization, DPD, and Delinquency
+- Machine learning model with Optuna-based optimization
+- Real-time prediction of credit risk (e.g., Low Risk, High Risk)
+- Professional dark-theme UI tailored for financial analysis
 
-Lauki Finance models how financial institutions assess an individual's creditworthiness. This user-friendly Streamlit app allows users to input:
+## 📸 Screenshots
 
-    Age
+### Home Interface
+![App Interface]
+![Uploading Prediction input.png…]()
 
-    Income
+### Prediction Output
+![Prediction Result](https://your-uploaded-image-url-2)
 
-    Loan Amount
-
-    Tenure
-
-    Credit Utilization Ratio
-
-    DPD (Days Past Due)
-
-    Delinquency Ratio
-
-    and more...
-
-The app then uses a trained classification model to output whether the applicant is high risk or low risk.
-✨ Features
-
-✅ Real-time credit risk scoring
-✅ Dynamic calculation of Loan to Income Ratio
-✅ Clean, responsive UI with dark theme
-✅ Dropdown and numeric inputs for quick experimentation
-✅ Supports multiple loan purposes and types
-🧰 Tech Stack
-
-    Frontend: Streamlit
-
-    Backend: Python, Scikit-learn
-
-    Modeling: Logistic Regression / Random Forest (based on training pipeline)
-
-    Data Processing: Pandas, NumPy
-
-    Model Deployment: Streamlit Cloud
-
-    Model Serialization: Joblib
-
-🧠 Model Details
-
-    This project uses a classification algorithm (e.g., Logistic Regression or Random Forest) trained on synthetic or anonymized credit data.
-
-Features used in model:
-
-    Age
-
-    Income
-
-    Loan Amount
-
-    Loan to Income Ratio
-
-    Loan Tenure
-
-    Average DPD
-
-    Delinquency Ratio
-
-    Credit Utilization
-
-    Open Loan Accounts
-
-    Residence Type
-
-    Loan Purpose
-
-    Loan Type
-
-    The model was trained offline and exported using joblib, then loaded in the Streamlit app for prediction.
+## 🚀 How to Run Locally
+```bash
+git clone https://github.com/your-username/credit-risk-streamlit.git
+cd credit-risk-streamlit
+pip install -r requirements.txt
+streamlit run app.py
